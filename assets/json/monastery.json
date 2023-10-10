@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Kopan Monastery",
+    "address": "Ward 11, Budhanilkantha 44600",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPOhWMv2kqjZ_JjL5nS_9G6x8aEltlMyNn64nUL=s1360-w1360-h1020",
+
+    "laditude": " 27.742676586811932",
+    "longitude": "85.36491282521146",
+    "description": "Kopan Monastery, situated north of Boudhanath in the Kathmandu Valley, is a Tibetan Mahayana Buddhist monastery under Lama Zopa Rinpoche's guidance. Home to 360 monks, it emphasizes the teachings of Buddha Shakyamuni and Lama Tsong Khapa. Visitors worldwide attend courses in this serene setting dedicated to infinite wisdom and compassion. Affiliated with the Foundation for the Preservation of the Mahayana Tradition (FPMT), Kopan follows FPMT's Ethical Policy and has its 'Protection from Abuse Policy.' Governed independently, it contributes to the global transmission of Mahayana Buddhist values through education and community service."
+  },
+  {
+    "title": "Tharlam Monastery",
+    "address": "Kathmandu 44602",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMm_JFZqDg-KoE6TI848VGpufWSs0MOgmeXnuU1=s1360-w1360-h1020",
+
+    "laditude": "  27.723135935034414",
+    "longitude": "85.36455077062912",
+    "description": "Founded in 1436 by Ga Rabjampa Kunga Yeshe, Tharlam Monastery, also recognized as Tarlam Sabzang Namgyaling, 唐隆寺, 汤陇寺, tanglong si, and Śrī Tarlam Ganden Sabzang Namgyel Ling, was a significant Tibetan Buddhist institution situated in Kham, Eastern Tibet. Tragically, in 1959, the monastery fell victim to destruction at the hands of Chinese communists. Nevertheless, the spirit of Tharlam endured, and in 1981, Dezhung Rinpoche led efforts to rebuild the monastery in Kathmandu, Nepal. A noteworthy development followed with the construction of 40 rooms specifically designated for meditation and retreat purposes. This resilient institution stands as a poignant symbol of Tibetan Buddhist heritage, transcending the challenges imposed by historical adversities."
+  },
+  {
+    "title": "Thrangu Tashi Yangtse Monastery or Namo Buddha Monastery ",
+    "address": "HHCM+F2R, Namobuddha Rd, Simalchaur Syampati 45200",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPcVrN7Rsn-lvp7db3PpwkjEroov69hXGkoeGwn=s1360-w1360-h1020",
+
+    "laditude": "  27.571237117729247",
+    "longitude": " 85.58251612944278",
+    "description": "The Thrangu Tashi Yangtse Monastery, also known as Namo Buddha Monastery, stands 40 km southeast of Kathmandu, Nepal, founded by V.V. Khenchen Thrangu Rinpoche in 1978. With over 250 monks, it is a hub of spirituality and tourism. Celebrating festivals like Kartik Purnima and Buddha Jayanti, the monastery holds cultural significance. Legend has it that 6000 years ago, Prince Mahasatwo's selfless sacrifice to feed a starving tigress and her cubs is commemorated by the stupa at Namo Buddha. The Thrangu Tashi Yangtse Temple, opened in 2008, marks the monastery's growth, while the Shree Mangal Dvip Branch School nurtures young monks. This monastery, with its rich history and architectural landmarks, remains a revered symbol of Tibetan Buddhist heritage."
+  },
+  {
+    "title": "Amitabha Monastery",
+    "address": "P7F6+XVJ, Nagarjun 44600",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/AmitabhMonastery.jpg",
+
+    "laditude": " 27.57124457883932",
+    "longitude": " 85.58254456517517",
+    "description": "Perched atop Druk Amitabha Mountain with a commanding view of Kathmandu Valley, the Amitabha Monastery serves as a hub for spiritual practice and humanitarian endeavors. Boasting facilities such as a 2,000-seat hall, a library, the Drukpa Lineage's administrative office, a nunnery, and accommodations for 300 nuns, the monastery is a multifaceted center. It also houses a medical clinic and stands as a sanctuary for animals rescued from butchering, complemented by vegetable gardens catering to the center's sustenance. Beyond its spiritual significance, the hiking trails surrounding the monastery contribute to its allure, enhancing the overall experience for visitors."
+  },
+  {
+    "title": "Shechen Tennyi Dargyeling Monastery",
+    "address": "Tushal-Mahankal Rd, Kathmandu 44600",
+    "image": "https://shechen.org/wp/wp-content/themes/deadwood-lite/images/headers/monnepal.jpg",
+
+    "laditude": " 27.723706327653368",
+    "longitude": "85.36074948332792",
+    "description": "Shechen Monastery, once a prominent Nyingma institution in Tibet, was destroyed in the late 1950s. In exile, Dilgo Khyentse Rinpoche transplanted its traditions to Nepal, establishing Shechen Tennyi Dargyeling Monastery near Bodhnath. Built from 1980 onwards, the monastery, envisioned as a guardian of its predecessor's legacy, showcased Tibetan artistry. Unfortunately, the main temple, featuring intricate frescoes, was destroyed in the 2015 earthquakes. Still, the monastery houses over one hundred and fifty statues and hosts one of the largest Tibetan libraries in the East, embodying Dilgo Khyentse Rinpoche's commitment to preserving spiritual and cultural heritage."
+  },
+  {
+    "title": "Dhagpo Sheydrub Ling Monastery or Nala gumba",
+    "address": "Bhaktapur Nala Rd, Tukucha Nala",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNZI-jc_wa8PnHaG6__Z4AtHOs6l2lD6Fvgy8Cl=s1360-w1360-h1020",
+
+    "laditude": " 27.662213870521946",
+    "longitude": "85.49450492335752",
+    "description": "Dhagpo Sheydrub Ling Monastery is located on Nala, Banepa, Kavre,about 1300m from Karunamaya Temple North-West & can be reach from Bhaktapur also.It also focus on giving education for Buddhist children.It is built on the top of the hill.We can also find different art and sculpture inside the gumba."
+  }
+]
