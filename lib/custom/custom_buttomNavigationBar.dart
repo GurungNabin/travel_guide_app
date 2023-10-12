@@ -12,8 +12,9 @@ class CustomButtomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
+      shadowColor: Colors.black,
       elevation: 0,
-      color: Colors.white,
+      color: Colors.grey[100],
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [

@@ -12,7 +12,7 @@ class UserHistoricModel {
     final int id;
     final String name;
     final String address;
-    final String laditude;
+    final String latitude;
     final String longitude;
     final String title;
     final String description;
@@ -22,7 +22,7 @@ class UserHistoricModel {
         required this.id,
         required this.name,
         required this.address,
-        required this.laditude,
+        required this.latitude,
         required this.longitude,
         required this.title,
         required this.description,
@@ -33,7 +33,7 @@ class UserHistoricModel {
         id: json["id"],
         name: json["name"],
         address: json["address"],
-        laditude: json["laditude"],
+        latitude: json["latitude"],
         longitude: json["longitude"],
         title: json["title"],
         description: json["description"],
@@ -44,7 +44,7 @@ class UserHistoricModel {
         "id": id,
         "name": name,
         "address": address,
-        "laditude": laditude,
+        "latitude": latitude,
         "longitude": longitude,
         "title": title,
         "description": description,

@@ -4,7 +4,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:latlong2/latlong.dart';
 
 class DescriptionPage extends StatefulWidget {
-  final String title;
+  final String name;
   final String image;
   final String description;
   final String address;
@@ -12,7 +12,7 @@ class DescriptionPage extends StatefulWidget {
   final double longitude;
   const DescriptionPage(
       {super.key,
-      required this.title,
+      required this.name,
       required this.image,
       required this.description,
       required this.address,
@@ -30,7 +30,7 @@ class _DescriptionPageState extends State<DescriptionPage> {
 
   @override
   void initState() {
-    // TODO: implement initState
+   
     super.initState();
     getCurrentLocation();
   }
@@ -69,8 +69,10 @@ class _DescriptionPageState extends State<DescriptionPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        toolbarHeight: 50,
         backgroundColor: Colors.blueGrey,
-        title: Text(widget.title),
+        title: Text(widget.name,),
+        
       ),
       body: isLoading
           ? const Center(
@@ -111,7 +113,7 @@ class _DescriptionPageState extends State<DescriptionPage> {
                     ),
                     Text(
                       widget.description,
-                      style: TextStyle(fontSize: 18),
+                      style: const TextStyle(fontSize: 18),
                       textAlign: TextAlign.justify,
                     ),
                     SizedBox(

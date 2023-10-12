@@ -12,7 +12,7 @@ class UserTempelsModel {
     final int id;
     final String name;
     final String address;
-    final String laditude;
+    final String latitude;
     final String longitude;
     final String description;
     final String image;
@@ -21,7 +21,7 @@ class UserTempelsModel {
         required this.id,
         required this.name,
         required this.address,
-        required this.laditude,
+        required this.latitude,
         required this.longitude,
         required this.description,
         required this.image,
@@ -31,7 +31,7 @@ class UserTempelsModel {
         id: json["id"],
         name: json["name"],
         address: json["address"],
-        laditude: json["laditude"],
+        latitude: json["latitude"],
         longitude: json["longitude"],
         description: json["description"],
         image: json["image"],
@@ -41,7 +41,7 @@ class UserTempelsModel {
         "id": id,
         "name": name,
         "address": address,
-        "laditude": laditude,
+        "latitude": latitude,
         "longitude": longitude,
         "description": description,
         "image": image,
