@@ -52,7 +52,7 @@ class _MonasteryPlaceState extends State<MonasteryPlace> {
                           child: Column(
                             children: [
                               Text(
-                                history.title,
+                                history.name,
                               ),
                               const SizedBox(
                                 height: 5,

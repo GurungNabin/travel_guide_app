@@ -48,11 +48,11 @@ class _MonasterySlideState extends State<MonasterySlide> {
                               context,
                               MaterialPageRoute(
                                 builder: (context) => DescriptionPage(
-                                  title: datas.title,
+                                  name: datas.name,
                                   image: datas.image,
                                   description: datas.description,
                                   address: datas.address,
-                                  latitude: double.parse(datas.laditude),
+                                  latitude: double.parse(datas.latitude),
                                   longitude: double.parse(datas.longitude),
                                 ),
                               ),
@@ -65,7 +65,7 @@ class _MonasterySlideState extends State<MonasterySlide> {
                                   datas.image,
                                   height: 200,
                                 ),
-                                Text(datas.title),
+                                Text(datas.name),
                                 SizedBox(
                                   width: 300,
                                   child: Text(

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Kathmandu Durbar Square",
+    "address": " Kathmandu, Nepal",
+    "latitude": "27.704273793186072",
+    "longitude": "85.30773845212016",
+    "description": " Kathmandu Durbar Square, or Basantapur Durbar Kshetra in Nepal Bhasa, is a captivating historical and cultural site nestled in the heart of Kathmandu, Nepal. Recognized as one of the UNESCO World Heritage Sites, its origins trace back to the 3rd century, evolving over time with significant contributions from various dynasties. The outer complex showcases 16th-century temples, adorned with intricate carvings characteristic of Newar architecture, a testament to the artistic brilliance of the Malla kings. Surrounding the central square are palace complexes built during the Malla and Shah periods, with the notable Nautalle Durbar standing tall—a nine-story palace erected by Prithvi Narayan Shah to commemorate the Unification of Nepal. At the southern edge lies Kumari Chouk, a three-story temple that serves as the residence of the Kumari, a young girl revered as the living embodiment of the Hindu Goddess Durga. Beyond its architectural marvels, Kathmandu Durbar Square embodies the cultural spirit of Nepal, providing a living connection to the nation's rich heritage. This UNESCO site stands as a timeless repository, inviting visitors to explore the layers of history, art, and spirituality woven into its intricate tapestry.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Basantapurpalace.JPG/375px-Basantapurpalace.JPG"
+  },
+  {
+    "id": 2,
+    "name": "Bhaktapur Durbar Square",
+    "address": "Bhaktapur, Nepal",
+
+    "latitude": "27.67208302872934",
+    "longitude": "85.42811304331441",
+    "description": "Bhaktapur Durbar Square, situated in Bhaktapur, Nepal, stands as a testament to a bygone era, having served as the royal palace complex for the Malla kings of Nepal from the 14th to the 15th century and later for the kings of the Kingdom of Bhaktapur until its conquest in 1769. Designated as a UNESCO World Heritage Site, this historic square is a collaborative effort between the Archaeological Department of Nepal and Bhaktapur Municipality, undergoing extensive restoration due to damages inflicted by the earthquakes of 1934 and 2015.In its heyday, Bhaktapur Durbar Square was renowned as the grandest among the three Malla palace squares in Kathmandu, Patan, and Bhaktapur. However, the ravages of time and seismic activities have led to the loss of many structures that once adorned the square. The aftermath of earthquakes has been particularly impactful, resulting in the destruction of numerous buildings and courtyards, diminishing the square's architectural richness. From its original count of 99 courtyards during its zenith, a mere 15 courtyards have withstood the test of time and natural disasters.Despite the challenges, Bhaktapur Durbar Square remains a poignant symbol of Nepal's royal history and cultural heritage. The ongoing restoration efforts aim not only to resurrect the physical structures but also to preserve the intangible legacy that echoes through the cobbled pathways and remnants of ancient grandeur. As visitors explore the square, they witness a landscape where history converges with resilience, and where the whispers of a regal past persist amidst the ongoing narrative of preservation and revival.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bhaktapurs-Durbar-Square-before-the-1932-earthquake.jpg/450px-Bhaktapurs-Durbar-Square-before-the-1932-earthquake.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pathan Durbar Square",
+    "address": "Patan,  Nepal",
+    "latitude": "27.672722192532188",
+    "longitude": "85.3253303432145",
+    "description": "Nestled at the heart of Lalitpur in Nepal, Patan Durbar Square stands as an emblem of cultural richness and historical significance. As one of the three UNESCO World Heritage Sites in the Kathmandu Valley, this square is a testament to the architectural prowess of the Newar people. Central to its allure is the medieval royal palace, once the residence of the Malla Kings of Lalitpur.The square itself is a marvel of Newar architecture, with its floor adorned in red bricks, creating a striking visual tapestry. Temples and statues dot the landscape, with the main temples aligned opposite the western face of the palace. Their entrances face east, a symbolic orientation towards the regal seat. Alongside these temples, a bell stands in alignment, resonating with the historical echoes of this sacred space. Patan Durbar Square not only boasts the grandeur of temples but also embraces the essence of old Newari residential houses, contributing to its living heritage.With 136 'bahals' (courtyards) and 55 major temples, Patan Durbar Square is a center of both Hinduism and Buddhism. Each courtyard and temple encapsulates a unique facet of the rich religious and cultural tapestry that defines the square. It serves as a vibrant testament to the harmonious coexistence of these two ancient religions.The devastating earthquake in April 2015 left an indelible mark on the square, causing substantial damage. However, amidst the ruins, the spirit of Patan Durbar Square endures, as restoration efforts work towards reinstating its former glory. Visitors today witness not just the remnants of a historical site but a resilient testament to the enduring legacy of Newar craftsmanship and cultural heritage.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Patan_Durbar_Square_entrance_2022.jpg/402px-Patan_Durbar_Square_entrance_2022.jpg"
+  },
+
+  {
+    "id": 4,
+    "name": "Kopan Monastery",
+    "address": "Ward 11, Budhanilkantha 44600",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPOhWMv2kqjZ_JjL5nS_9G6x8aEltlMyNn64nUL=s1360-w1360-h1020",
+
+    "latitude": " 27.742676586811932",
+    "longitude": "85.36491282521146",
+    "description": "Kopan Monastery, situated north of Boudhanath in the Kathmandu Valley, is a Tibetan Mahayana Buddhist monastery under Lama Zopa Rinpoche's guidance. Home to 360 monks, it emphasizes the teachings of Buddha Shakyamuni and Lama Tsong Khapa. Visitors worldwide attend courses in this serene setting dedicated to infinite wisdom and compassion. Affiliated with the Foundation for the Preservation of the Mahayana Tradition (FPMT), Kopan follows FPMT's Ethical Policy and has its 'Protection from Abuse Policy.' Governed independently, it contributes to the global transmission of Mahayana Buddhist values through education and community service."
+  },
+  {
+    "id": 5,
+    "name": "Tharlam Monastery",
+    "address": "Kathmandu 44602",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMm_JFZqDg-KoE6TI848VGpufWSs0MOgmeXnuU1=s1360-w1360-h1020",
+
+    "latitude": "  27.723135935034414",
+    "longitude": "85.36455077062912",
+    "description": "Founded in 1436 by Ga Rabjampa Kunga Yeshe, Tharlam Monastery, also recognized as Tarlam Sabzang Namgyaling, 唐隆寺, 汤陇寺, tanglong si, and Śrī Tarlam Ganden Sabzang Namgyel Ling, was a significant Tibetan Buddhist institution situated in Kham, Eastern Tibet. Tragically, in 1959, the monastery fell victim to destruction at the hands of Chinese communists. Nevertheless, the spirit of Tharlam endured, and in 1981, Dezhung Rinpoche led efforts to rebuild the monastery in Kathmandu, Nepal. A noteworthy development followed with the construction of 40 rooms specifically designated for meditation and retreat purposes. This resilient institution stands as a poignant symbol of Tibetan Buddhist heritage, transcending the challenges imposed by historical adversities."
+  },
+  {
+    "id": 6,
+    "name": "Thrangu Tashi Yangtse Monastery or Namo Buddha Monastery ",
+    "address": "HHCM+F2R, Namobuddha Rd, Simalchaur Syampati 45200",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPcVrN7Rsn-lvp7db3PpwkjEroov69hXGkoeGwn=s1360-w1360-h1020",
+
+    "latitude": "  27.571237117729247",
+    "longitude": " 85.58251612944278",
+    "description": "The Thrangu Tashi Yangtse Monastery, also known as Namo Buddha Monastery, stands 40 km southeast of Kathmandu, Nepal, founded by V.V. Khenchen Thrangu Rinpoche in 1978. With over 250 monks, it is a hub of spirituality and tourism. Celebrating festivals like Kartik Purnima and Buddha Jayanti, the monastery holds cultural significance. Legend has it that 6000 years ago, Prince Mahasatwo's selfless sacrifice to feed a starving tigress and her cubs is commemorated by the stupa at Namo Buddha. The Thrangu Tashi Yangtse Temple, opened in 2008, marks the monastery's growth, while the Shree Mangal Dvip Branch School nurtures young monks. This monastery, with its rich history and architectural landmarks, remains a revered symbol of Tibetan Buddhist heritage."
+  },
+  {
+    "id": 7,
+    "name": "Amitabha Monastery",
+    "address": "P7F6+XVJ, Nagarjun 44600",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/AmitabhMonastery.jpg",
+
+    "latitude": " 27.57124457883932",
+    "longitude": " 85.58254456517517",
+    "description": "Perched atop Druk Amitabha Mountain with a commanding view of Kathmandu Valley, the Amitabha Monastery serves as a hub for spiritual practice and humanitarian endeavors. Boasting facilities such as a 2,000-seat hall, a library, the Drukpa Lineage's administrative office, a nunnery, and accommodations for 300 nuns, the monastery is a multifaceted center. It also houses a medical clinic and stands as a sanctuary for animals rescued from butchering, complemented by vegetable gardens catering to the center's sustenance. Beyond its spiritual significance, the hiking trails surrounding the monastery contribute to its allure, enhancing the overall experience for visitors."
+  },
+  {
+    "id": 8,
+    "name": "Shechen Tennyi Dargyeling Monastery",
+    "address": "Tushal-Mahankal Rd, Kathmandu 44600",
+    "image": "https://shechen.org/wp/wp-content/themes/deadwood-lite/images/headers/monnepal.jpg",
+
+    "latitude": " 27.723706327653368",
+    "longitude": "85.36074948332792",
+    "description": "Shechen Monastery, once a prominent Nyingma institution in Tibet, was destroyed in the late 1950s. In exile, Dilgo Khyentse Rinpoche transplanted its traditions to Nepal, establishing Shechen Tennyi Dargyeling Monastery near Bodhnath. Built from 1980 onwards, the monastery, envisioned as a guardian of its predecessor's legacy, showcased Tibetan artistry. Unfortunately, the main temple, featuring intricate frescoes, was destroyed in the 2015 earthquakes. Still, the monastery houses over one hundred and fifty statues and hosts one of the largest Tibetan libraries in the East, embodying Dilgo Khyentse Rinpoche's commitment to preserving spiritual and cultural heritage."
+  },
+  {
+    "id": 9,
+    "name": "Dhagpo Sheydrub Ling Monastery or Nala gumba",
+    "address": "Bhaktapur Nala Rd, Tukucha Nala",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNZI-jc_wa8PnHaG6__Z4AtHOs6l2lD6Fvgy8Cl=s1360-w1360-h1020",
+
+    "latitude": " 27.662213870521946",
+    "longitude": "85.49450492335752",
+    "description": "Dhagpo Sheydrub Ling Monastery is located on Nala, Banepa, Kavre,about 1300m from Karunamaya Temple North-West & can be reach from Bhaktapur also.It also focus on giving education for Buddhist children.It is built on the top of the hill.We can also find different art and sculpture inside the gumba."
+  },
+
+  {
+    "id": 10,
+    "name": "Pashupatinath Temple",
+    "address": "Pashupati Nath Road, Kathmandu, Nepal",
+
+    "latitude": " 27.710524184139707",
+    "longitude": "85.34882779875322",
+    "description": "Pashupatinath Temple is one of the most sacred Hindu temples dedicated to Lord Shiva. It is located on the banks of the Bagmati River in the Kathmandu Valley.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pashupatinath_Temple-2020.jpg/1200px-Pashupatinath_Temple-2020.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Swayambhunath Stupa (Monkey Temple)",
+    "address": "Swayambhu, Kathmandu, Nepal",
+
+    "latitude": " 27.71487812640217",
+    "longitude": "85.29039643486018",
+    "description": "Swayambhunath Stupa, also known as the Monkey Temple, is an ancient religious complex atop a hill in the Kathmandu Valley. It is a UNESCO World Heritage Site.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Swayambhunath_temple_-_an_ancient_religious_architecture_of_Nepal.jpg/1200px-Swayambhunath_temple_-_an_ancient_religious_architecture_of_Nepal.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Boudhanath Stupa",
+    "address": "Boudha, Kathmandu, Nepal",
+
+    "latitude": "27.721508885941283",
+    "longitude": "85.36212066189044",
+    "description": "Boudhanath Stupa is one of the largest stupas in Nepal and a major pilgrimage site for Buddhists. It is known for its impressive dome and vibrant prayer flags.",
+    "image": "https://www.oyorooms.com/blog/wp-content/uploads/2019/06/Top-6-Buddhist-Stupas-to-Visit-in-India-Hero-image.jpg"
+  }
+]

@@ -9,36 +9,36 @@ List<UserMonasteryModel> userMonasteryModelFromJson(String str) => List<UserMona
 String userMonasteryModelToJson(List<UserMonasteryModel> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
 class UserMonasteryModel {
-    final String title;
+    final String name;
     final String address;
     final String image;
-    final String laditude;
+    final String latitude;
     final String longitude;
     final String description;
 
     UserMonasteryModel({
-        required this.title,
+        required this.name,
         required this.address,
         required this.image,
-        required this.laditude,
+        required this.latitude,
         required this.longitude,
         required this.description,
     });
 
     factory UserMonasteryModel.fromJson(Map<String, dynamic> json) => UserMonasteryModel(
-        title: json["title"],
+        name: json["name"],
         address: json["address"],
         image: json["image"],
-        laditude: json["laditude"],
+        latitude: json["latitude"],
         longitude: json["longitude"],
         description: json["description"],
     );
 
     Map<String, dynamic> toJson() => {
-        "title": title,
+        "name": name,
         "address": address,
         "image": image,
-        "laditude": laditude,
+        "laditude": latitude,
         "longitude": longitude,
         "description": description,
     };

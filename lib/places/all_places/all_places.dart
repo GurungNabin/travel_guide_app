@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:travel_guide_app/places/temples/temple_model.dart';
-import 'package:travel_guide_app/places/temples/temple_services.dart';
-import 'package:travel_guide_app/screen/description_page.dart';
+import 'package:travel_guide_app/places/all_places/all_places_model.dart';
+import 'package:travel_guide_app/places/all_places/all_places_services.dart';
 
-class Temple extends StatefulWidget {
-  const Temple({super.key});
+
+class AllPlaces extends StatefulWidget {
+  const AllPlaces({super.key});
 
   @override
-  State<Temple> createState() => _TempleState();
+  State<AllPlaces> createState() => _AllPlacesState();
 }
 
-class _TempleState extends State<Temple> {
-  final TempleService templeService = TempleService();
-  late UserTempelsModel userTempelsModel;
-  List<UserTempelsModel> templeData = [];
+class _AllPlacesState extends State<AllPlaces> {
+  final AllPlacesServices allPlacesServices = AllPlacesServices();
+  late AllPlacesModel allPlacesModel;
+  List<AllPlacesModel> placesData = [];
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class _TempleState extends State<Temple> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: FutureBuilder(
-            future: templeService.getTempleData(context: context),
+            future: allPlacesServices.getPlacesData(context: context),
             builder: (context, AsyncSnapshot snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
                 return const Center(
@@ -36,26 +36,15 @@ class _TempleState extends State<Temple> {
                   child: Text(snapshot.error.toString()),
                 );
               } else if (snapshot.hasData) {
-                templeData = snapshot.data;
+                placesData = snapshot.data;
 
                 return ListView.builder(
-                  itemCount: templeData.length,
+                  itemCount: placesData.length,
                   itemBuilder: (context, index) {
-                    final datas = templeData[index];
+                    final datas = placesData[index];
                     return InkWell(
                       onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => DescriptionPage(
-                                    name: datas.name,
-                                    image: datas.image,
-                                    description: datas.description,
-                                    address: datas.address,
-                                    latitude: double.parse(datas.latitude),
-                                    longitude: double.parse(datas.longitude),
-                                  )),
-                        );
+                        
                       },
                       child: Card(
                         margin: const EdgeInsets.only(bottom: 20),

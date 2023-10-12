@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:travel_guide_app/screen/home_screen.dart';
-import 'package:travel_guide_app/widget/utils.dart';
+import 'package:travel_guide_app/utils.dart';
 
 String uri = "https://www.consultancynepal.com/api";
 

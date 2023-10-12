@@ -49,11 +49,11 @@ class _SideScrollScreenState extends State<SideScrollScreen> {
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) => DescriptionPage(
-                                    title: datas.name,
+                                    name: datas.name,
                                     image: datas.image,
                                     description: datas.description,
                                     address: datas.address,
-                                    latitude: double.parse(datas.laditude),
+                                    latitude: double.parse(datas.latitude),
                                     longitude: double.parse(datas.longitude),
                                   ),
                                 ),

@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
+
 import 'package:travel_guide_app/custom/custom_buttomNavigationBar.dart';
 import 'package:travel_guide_app/custom/custom_search.dart';
 import 'package:travel_guide_app/places/historic_place/historic.dart';
+import 'package:travel_guide_app/places/historic_place/historic_custom/custom_historical_sidescroll.dart';
 import 'package:travel_guide_app/places/monastery/monastery.dart';
 import 'package:travel_guide_app/places/monastery/monastery_custom/cutsom_monastery.dart';
 import 'package:travel_guide_app/places/temples/temple.dart';
 import 'package:travel_guide_app/places/temples/temple_custom/custom_sidescroll.dart';
-import 'package:travel_guide_app/places/historic_place/historic_custom/custom_historical_sidescroll.dart';
+import 'package:travel_guide_app/screen/search_screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -16,16 +18,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final List<String> places = [
-    'Temple 1',
-    'Temple 2',
-    'Historic Place 1',
-    'Historic Place 2',
-    'Monastery 1',
-    'Monastery 2',
-  ];
-
-  List<String> filteredPlaces = [];
+  final myController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -33,8 +26,9 @@ class _HomePageState extends State<HomePage> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          toolbarHeight: 50,
           backgroundColor: Colors.blueGrey,
-          title: const Text('Home Page'),
+          title: const Center(child: Text('Home Page')),
         ),
         drawer: const Drawer(),
         body: SingleChildScrollView(
@@ -44,19 +38,13 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.all(8.0),
               child: Column(
                 children: [
-                  SingleChildScrollView(
-                    physics: const NeverScrollableScrollPhysics(),
-                    child: CustomSearch(
+                  GestureDetector(
+                    onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const SearchScreen())),
+                    child: const CustomSearch(
                       title: 'Search',
-                      onSearch: (String query) {
-                        setState(() {
-                          filteredPlaces = places
-                              .where((place) => place
-                                  .toLowerCase()
-                                  .contains(query.toLowerCase()))
-                              .toList();
-                        });
-                      },
                     ),
                   ),
                   const SizedBox(
